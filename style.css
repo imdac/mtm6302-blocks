@@ -1,0 +1,15 @@
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
